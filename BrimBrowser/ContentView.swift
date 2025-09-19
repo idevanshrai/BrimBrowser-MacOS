@@ -4,21 +4,10 @@
 //
 //  Created by Devansh Rai on 10/9/25.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        BrowserView() // 👈 This is the multi-tab, bookmark-enabled browser UI
     }
-}
-
-#Preview {
-    ContentView()
 }
